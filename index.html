@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Tiradentes - Tribute Page</title>
+
+  <!--User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+
+User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+
+User Story #3: I should see either a figure or a div element with a corresponding id="img-div".
+
+User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+
+User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+
+User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+
+User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+
+User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+User Story #9: The img element should be centered within its parent element.-->
+
+</head>
+<body>
+  <header id="title">
+    <h1>
+      Tiradentes
+    </h1>
+    <h2>The leader of the Minas Inconfidence</h2>
+  </header>
+  <section id="intro-container">
+    <figure id="img-div">
+     <img id="image" src="./assets/tiradentes.jpg" alt="A drawn portrait of Tiradentes">
+     <figcaption id="img-caption">A drawn portrait of Tiradentes</figcaption>
+    </figure>
+    <p id="tribute-info">Joaquim José da Silva Silveira Xavier, most known as Tiradentes was the leader of the Minas Inconfidence, which took place in 1789 in the captaincy of Minas Gerais - State of Brazil.</p>
+    <hr style="size: 2px; width: 25%; margin-top: 20px;"><!--horizontal line-->
+  </section>  
+  <main id="main">
+  <div class="card card-1">
+    <h3 style="margin-top: 0px;">Context</h3>
+    <p>The inconfidentes movement, organized in 1788, was a consequence of the contact of Brazilian colonists with the Enlightenment ideals disseminated in Europe, ideals that inspired the independence movement in the United States.
+      <br> <br>
+    The Brazilian economic elite was unhappy with the large taxes that were <strong>20% of all gold produced</strong> in Brazil, these taxes would not be reinvested in the State of Brazil, instead they would go to the Portuguese Crown. When Visconde de Barbacena was appointed governor of the captaincy of Minas Gerais, he should promote the collection of taxes that were not being paid.
+    <br>
+    <img class="card-image" src="./assets/taxes.png" alt="">
+    <br>
+    </p>
+  </div>
+  <div class="card card-2">
+    <h3>Plan</h3>
+    <p>So Tiradentes decides to lead a conspiracy against these unfair  taxes. The inconfidentes plan was simple, <span class="markup">assassinate</span> the governor and proclaim republicanism in the captaincy.
+      <br>
+    Unfortunately, the plan was not carried out, one of the members of the conspirators betrayed his friend, denouncing the plan in exchange for having his debts forgiven.</p>
+    
+    <img class="card-image" src="./assets/plan.png" alt="">
+  </div>
+  <div class="card card-3">
+    <h3>The fall</h3>
+    <p>Tiradentes and the other conspirators were arrested, most of the conspirators denied participation in the plan, but Tiradentes openly acknowledged his involvement
+      <br>
+    The sentence given to the inconfidentes was the death by hanging of ten people. But through the interference of Queen Maria I, nine of those involved were pardoned and exiled from Brazil, the only one who was not pardoned was Tiradentes.
+      <br>
+    Thus, Tiradentes was used as a scapegoat by the Portuguese Crown. He was hanged on the morning of <time datetime="1792-04-21">April 21<sup>st</sup>, 1792</time>, in the city of Rio de Janeiro. Then, the body was quartered into four parts and scattered along the access road to Ouro Preto. <span class="markup">His head was exposed on a stake</span> placed in the town's central square. Tiradentes' condemnation was used as a show of strength by the Crown to prevent future rebellions from happening.
+    </p>
+    <img class="card-image" src="./assets/rope.png" alt="">
+  </div>
+  </main>
+  <section id="curiosity">
+    <h4>Here are some curisity about Tiradentes</h4>
+    <ul>
+      <li>He was a dentist, that's why he's called "Tiradentes", which means in free translation "Tooth Remover";</li>
+      <br>
+      <li>Unlike his nickname, as a dentist he didn't like to remove teeths;</li>
+      <br>
+      <li>Despite leading the conspiracy, he was not part of the economic elite;</li>
+      <br>
+      <li>The date April 21<sup>st</sup> is a public holliday in Brazil, that is called "Dia de Tiradentes";</li>
+      <br>
+      <li>His face is stamped on the five cent coin;</li>
+      <br>
+      <li>A slave became an official executioner when he exchanged his death sentence for a life sentence, having been tasked with killing Tiradentes.</li>
+    </ul>
+  </section>
+  <footer>
+    <h5>You can see more in his WIKIPÉDIA page, by <a href="https://pt.wikipedia.org/wiki/Tiradentes" target="blank">clcking here</a></h4>
+
+    <section id="social-networks">
+      <h5>Here are my social-network</h5>
+        <div id="network">
+        <a href="https://github.com/bad7k" target="blank"><img class="logo" src="./assets/logos/logo-github.png" alt="GitHub logo"></a>
+
+        <a href="https://www.instagram.com/bad7k_/" target="blank"><img class="logo" src="./assets/logos/logo-instagram.png" alt="Instagram Logo"></a>
+      </div>
+    </section>
+    <h6>Project made by bad7k
+      <br>
+      All rigth reserverd &copy;</h6>
+  </footer>
+</body>
+</html>
